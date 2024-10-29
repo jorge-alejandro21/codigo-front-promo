@@ -46,7 +46,7 @@ export default function UserHome({ user }) {
     event.preventDefault();
     try {
       const response = await fetch(
-        "http://localhost:4000/codes/registerCode",
+        "https://codigo-back-promo.vercel.app/codes/registerCode",
         {
       
           method: "POST",
