@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #FFD100;
+  background-color: #ff00b3;
 }
 
 .login-form-container {
@@ -17,7 +17,7 @@
 
 h2 {
   text-align: center;
-  color: #C10012;
+  color: #9a00c1;
   margin-bottom: 1.25rem;
   font-weight: 500;
 }
@@ -34,14 +34,14 @@ h2 {
 
 label {
   font-size: 0.9rem;
-  color: #555;
+  color: #bd2222;
   margin-bottom: 0.4rem;
 }
 
 input {
   width: 100%;
   padding: 0.5rem;
-  border: 1px solid #d1d5db;
+  border: 1px solid #939aa3;
   border-radius: 5px;
   font-size: 1rem;
 }
@@ -74,7 +74,7 @@ input:focus {
 }
 
 .signup-link a {
-  color: #C10012;
+  color: #c1008a;
   text-decoration: none;
 }
 
