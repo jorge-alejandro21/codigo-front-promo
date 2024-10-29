@@ -17,7 +17,7 @@ export default function Signup({ role }) {
   const handleSubmit = async (event) => {
     event.preventDefault();
         try {
-            const response = await fetch('http://localhost:4000/user/signup', {
+            const response = await fetch('https://codigo-back-promo.vercel.app/user/signup', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

@@ -16,7 +16,7 @@ export default function UserHome({ user }) {
 
       try {
         const response = await fetch(
-          "http://localhost:4000/codes/getUserCodes",
+          "https://codigo-back-promo.vercel.app/codes/getUserCodes",
           {
         
             method: "POST",
