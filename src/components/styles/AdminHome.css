@@ -1,0 +1,96 @@
+.admin-home {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #E0F7FA; /* Fondo azul claro */
+  min-height: 100vh; /* Para cubrir toda la altura de la pantalla */
+}
+
+.admin-home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #00796B; /* Verde azulado */
+}
+
+h2 {
+  font-size: 20px;
+  color: #00838F; /* Azul intermedio */
+  margin-bottom: 15px;
+}
+
+.logout-button {
+  background-color: #0288D1; /* Azul fuerte */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #0277BD; /* Azul más oscuro */
+}
+
+.winners-section {
+  margin-bottom: 30px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.winners-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 800px;
+}
+
+.winners-table th,
+.winners-table td {
+  border: 1px solid #B0BEC5; /* Bordes en gris claro */
+  padding: 12px;
+  text-align: left;
+}
+
+.winners-table th {
+  background-color: #CFD8DC; /* Fondo gris suave */
+  font-weight: bold;
+  color: #37474F; /* Gris oscuro */
+}
+
+.winners-table tr:nth-child(even) {
+  background-color: #ECEFF1; /* Fondo alterno gris claro */
+}
+
+.winners-table tr:hover {
+  background-color: #E0E0E0; /* Fondo más oscuro al pasar el cursor */
+}
+
+@media (max-width: 768px) {
+  .admin-home {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .winners-table th,
+  .winners-table td {
+    padding: 8px;
+    font-size: 14px;
+  }
+}

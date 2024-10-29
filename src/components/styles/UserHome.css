@@ -1,0 +1,112 @@
+.user-home {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #E0F7FA; /* Fondo azul claro */
+  border-radius: 12px; /* Esquinas redondeadas */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra */
+  min-height: 100vh;
+}
+
+.user-home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 26px;
+  color: #006064; /* Azul oscuro */
+}
+
+h2 {
+  font-size: 22px;
+  color: #00838F; /* Azul intermedio */
+  margin-bottom: 15px;
+}
+
+.logout-button {
+  background-color: #00796B; /* Verde azulado */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #004D40; /* Verde oscuro */
+}
+
+.register-code-section {
+  margin-bottom: 30px;
+}
+
+.register-code-form {
+  display: flex;
+  gap: 10px;
+}
+
+.form-group {
+  flex-grow: 1;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #455A64; /* Gris oscuro */
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #B0BEC5; /* Gris claro */
+  border-radius: 6px;
+  background-color: #FAFAFA; /* Fondo claro */
+}
+
+.register-button {
+  background-color: #0288D1; /* Azul fuerte */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #0277BD; /* Azul oscuro */
+}
+
+.registered-codes-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.registered-codes-table th,
+.registered-codes-table td {
+  border: 1px solid #B0BEC5; /* Bordes en gris claro */
+  padding: 12px;
+  text-align: left;
+}
+
+.registered-codes-table th {
+  background-color: #CFD8DC; /* Fondo gris suave */
+  font-weight: bold;
+  color: #37474F; /* Gris oscuro */
+}
+
+.registered-codes-table tr:nth-child(even) {
+  background-color: #ECEFF1; /* Fondo alterno gris claro */
+}
+
+.registered-codes-table tr:hover {
+  background-color: #E0E0E0; /* Fondo más oscuro al pasar el cursor */
+}
