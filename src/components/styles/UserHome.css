@@ -1,54 +1,52 @@
 .user-home {
-  max-width: 100%;
+  max-width: 700px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 16px;
   font-family: Arial, sans-serif;
-  background-color: #E0F7FA; /* Fondo azul claro */
-  border-radius: 12px; /* Esquinas redondeadas */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra */
-  min-height: 100vh;
 }
 
 .user-home-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 h1 {
-  font-size: 26px;
-  color: #006064; /* Azul oscuro */
+  font-size: 22px;
+  color: #333;
+  font-weight: 500;
 }
 
 h2 {
-  font-size: 22px;
-  color: #00838F; /* Azul intermedio */
-  margin-bottom: 15px;
+  font-size: 18px;
+  color: #C10012;
+  margin-bottom: 12px;
+  font-weight: 500;
 }
 
 .logout-button {
-  background-color: #00796B; /* Verde azulado */
+  background-color: #f44336;
   color: white;
   border: none;
-  padding: 10px 15px;
-  border-radius: 8px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 14px;
   cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.2s;
 }
 
 .logout-button:hover {
-  background-color: #004D40; /* Verde oscuro */
+  background-color: #d32f2f;
 }
 
 .register-code-section {
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 
 .register-code-form {
   display: flex;
-  gap: 10px;
+  gap: 8px;
 }
 
 .form-group {
@@ -56,33 +54,32 @@ h2 {
 }
 
 label {
-  display: block;
-  margin-bottom: 5px;
-  color: #455A64; /* Gris oscuro */
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.3rem;
 }
 
 input[type="text"] {
   width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #B0BEC5; /* Gris claro */
-  border-radius: 6px;
-  background-color: #FAFAFA; /* Fondo claro */
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 .register-button {
-  background-color: #0288D1; /* Azul fuerte */
+  background-color: #4CAF50;
   color: white;
   border: none;
-  padding: 10px 15px;
-  border-radius: 30px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 0.95rem;
   cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.2s;
 }
 
 .register-button:hover {
-  background-color: #0277BD; /* Azul oscuro */
+  background-color: #45a049;
 }
 
 .registered-codes-table {
@@ -92,21 +89,22 @@ input[type="text"] {
 
 .registered-codes-table th,
 .registered-codes-table td {
-  border: 1px solid #B0BEC5; /* Bordes en gris claro */
-  padding: 12px;
+  border: 1px solid #ddd;
+  padding: 10px;
   text-align: left;
+  font-size: 0.95rem;
 }
 
 .registered-codes-table th {
-  background-color: #CFD8DC; /* Fondo gris suave */
-  font-weight: bold;
-  color: #37474F; /* Gris oscuro */
+  background-color: #f8f8f8;
+  font-weight: 500;
+  color: #333;
 }
 
 .registered-codes-table tr:nth-child(even) {
-  background-color: #ECEFF1; /* Fondo alterno gris claro */
+  background-color: #fafafa;
 }
 
 .registered-codes-table tr:hover {
-  background-color: #E0E0E0; /* Fondo más oscuro al pasar el cursor */
+  background-color: #f1f1f1;
 }
