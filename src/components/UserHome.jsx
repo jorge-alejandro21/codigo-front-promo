@@ -110,13 +110,13 @@ export default function UserHome({ user }) {
         </section>
 
         <section className="registered-codes-section">
-          <h2>Códigos Registrados</h2>
+          <h2>Registro de Donaciones</h2>
           <table className="registered-codes-table">
             <thead>
               <tr>
                 <th>Fecha</th>
-                <th>Código</th>
-                <th>Premio</th>
+                <th>Código de regitro</th>
+                <th>Donacion Registrada</th>
               </tr>
             </thead>
             <tbody>
@@ -125,7 +125,7 @@ export default function UserHome({ user }) {
                   <td>{new Date(record.date).toLocaleString()}</td>
                   <td>{record.code}</td>
                   <td>
-                    {record.value === 0 ? "No ganaste" : `¡Ganaste ${record.value}!`}
+                    {record.value === 0 ? "Registro Realizado" : `Registro en Proceso ${record.value}!`}
                   </td>
                 </tr>
               ))}
