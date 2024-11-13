@@ -47,7 +47,7 @@ export default function AdminHome({ user }) {
             
             <main>
                 <section className="winners-section">
-                    <h2>Tabla de Ganadores</h2>
+                    <h2>Tabla de Donantes</h2>
                     <div className="table-container">
                         <table className="winners-table">
                             <thead>
@@ -58,7 +58,7 @@ export default function AdminHome({ user }) {
                                     <th>Celular</th>
                                     <th>Ciudad</th>
                                     <th>Código</th>
-                                    <th>Premio</th>
+                                    <th>Donación</th>
                                 </tr>
                             </thead>
                             <tbody>

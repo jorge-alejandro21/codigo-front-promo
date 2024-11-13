@@ -125,7 +125,7 @@ export default function UserHome({ user }) {
                   <td>{new Date(record.date).toLocaleString()}</td>
                   <td>{record.code}</td>
                   <td>
-                    {record.value === 0 ? "Registro Realizado" : `Registro en Proceso ${record.value}!`}
+                    {record.value === 0 ? "Registro Realizado por " : `Registro en Proceso ${record.value}!`}
                   </td>
                 </tr>
               ))}
