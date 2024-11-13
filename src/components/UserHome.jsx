@@ -81,7 +81,7 @@ export default function UserHome({ user }) {
   return (
     <div className="user-home">
       <header className="user-home-header">
-        <h1>Bienvenido</h1>
+        <h1>Bienvenido a NONPROFIT</h1>
         <button onClick={handleLogout} className="logout-button">
           Salir
         </button>
@@ -89,11 +89,11 @@ export default function UserHome({ user }) {
 
       <main>
         <section className="register-code-section">
-          <h2>Registrar Código</h2>
+          <h2>Registrar Código de Donación</h2>
           <form onSubmit={handleSubmit} className="register-code-form">
             <div className="form-group">
               <label htmlFor="code-input">Código:</label>
-              <input type="number" value={code} required placeholder="Ingrese el código"
+              <input type="number" value={code} required placeholder="Ingrese el código de donación"
                 onChange={(e) => {
                   const value = e.target.value;
                   if (value.length <= 3 && value >= 0 && value <= 999) {
@@ -115,8 +115,8 @@ export default function UserHome({ user }) {
             <thead>
               <tr>
                 <th>Fecha</th>
-                <th>Código de regitro</th>
-                <th>Donacion Registrada</th>
+                <th>Código de registro</th>
+                <th>Donacion Registradas</th>
               </tr>
             </thead>
             <tbody>
