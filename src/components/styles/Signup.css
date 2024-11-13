@@ -1,9 +1,14 @@
 .signup-container {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   background-color: #ffffff;
+  background-image: url(/image/LOGO.jpeg); /* Logo como fondo */
+  background-repeat: no-repeat;
+  background-position: 20px 20px; /* Ajusta la posición del logo */
+  background-size: 80px auto; /* Ajusta el tamaño del logo */
 }
 
 .signup-form-container {
@@ -65,7 +70,7 @@ input:focus {
 }
 
 .submit-button:hover {
-  background-color: #e74c3c;
+  background-color: #c0392b;
 }
 
 .login-link {
