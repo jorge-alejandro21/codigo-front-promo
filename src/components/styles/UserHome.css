@@ -14,19 +14,19 @@
 
 h1 {
   font-size: 22px;
-  color: #333;
+  color: #1e3a8a; /* Azul oscuro */
   font-weight: 500;
 }
 
 h2 {
   font-size: 18px;
-  color: #d90e92;
+  color: #3b82f6; /* Azul más claro */
   margin-bottom: 12px;
   font-weight: 500;
 }
 
 .logout-button {
-  background-color: #f436e4;
+  background-color: #2563eb; /* Azul de botón */
   color: white;
   border: none;
   padding: 8px 12px;
@@ -37,7 +37,7 @@ h2 {
 }
 
 .logout-button:hover {
-  background-color: #940c8d;
+  background-color: #1e40af;
 }
 
 .register-code-section {
@@ -55,7 +55,7 @@ h2 {
 
 label {
   font-size: 0.9rem;
-  color: #666;
+  color: #2563eb; /* Azul para etiquetas */
   margin-bottom: 0.3rem;
 }
 
@@ -68,7 +68,7 @@ input[type="text"] {
 }
 
 .register-button {
-  background-color: #ae1db9;
+  background-color: #3b82f6; /* Azul para botón de registro */
   color: white;
   border: none;
   padding: 8px 12px;
@@ -79,7 +79,7 @@ input[type="text"] {
 }
 
 .register-button:hover {
-  background-color: #de6ab6;
+  background-color: #2563eb;
 }
 
 .registered-codes-table {
@@ -96,15 +96,29 @@ input[type="text"] {
 }
 
 .registered-codes-table th {
-  background-color: #f8f8f8;
+  background-color: #ebf4ff; /* Fondo azul claro */
   font-weight: 500;
-  color: #333;
+  color: #1e3a8a; /* Texto azul oscuro */
 }
 
 .registered-codes-table tr:nth-child(even) {
-  background-color: #fafafa;
+  background-color: #f3f9ff;
 }
 
 .registered-codes-table tr:hover {
-  background-color: #f1f1f1;
+  background-color: #e0f2ff;
+}
+
+/* Logo con fondo degradado y una imagen superpuesta */
+.logo {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(45deg, #2563eb, #3b82f6); /* Degradado azul */
+  border-radius: 50%; /* Redondeado */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/image/LOGO.jpeg); /* Imagen de fondo */
+  background-size: cover; /* Ajusta la imagen para que cubra todo el logo */
+  background-position: center; /* Centra la imagen */
 }
