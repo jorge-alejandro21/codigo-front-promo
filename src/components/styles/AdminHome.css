@@ -14,13 +14,13 @@
 
 h1 {
   font-size: 22px;
-  color: #d016ca;
+  color: #3b82f6;
   font-weight: 500;
 }
 
 h2 {
   font-size: 18px;
-  color: #d921b7;
+  color: #3b82f6;
   margin-bottom: 12px;
 }
 
@@ -36,7 +36,7 @@ h2 {
 }
 
 .logout-button:hover {
-  background-color: #7812b3;
+  background-color: #e74c3c;
 }
 
 .winners-section {
