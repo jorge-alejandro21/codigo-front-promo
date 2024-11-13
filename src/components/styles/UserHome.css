@@ -108,17 +108,3 @@ input[type="text"] {
 .registered-codes-table tr:hover {
   background-color: #e0f2ff;
 }
-
-/* Logo con fondo degradado y una imagen superpuesta */
-.logo {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(45deg, #2563eb, #3b82f6); /* Degradado azul */
-  border-radius: 50%; /* Redondeado */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(/image/LOGO.jpeg); /* Imagen de fondo */
-  background-size: cover; /* Ajusta la imagen para que cubra todo el logo */
-  background-position: center; /* Centra la imagen */
-}

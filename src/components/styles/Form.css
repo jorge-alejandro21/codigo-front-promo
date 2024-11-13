@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #ff00b3;
+  background-color: #3b82f6;
 }
 
 .login-form-container {
@@ -17,7 +17,7 @@
 
 h2 {
   text-align: center;
-  color: #9a00c1;
+  color: #3b82f6;
   margin-bottom: 1.25rem;
   font-weight: 500;
 }
@@ -34,7 +34,7 @@ h2 {
 
 label {
   font-size: 0.9rem;
-  color: #bd2222;
+  color: #ff8000;
   margin-bottom: 0.4rem;
 }
 
@@ -48,12 +48,12 @@ input {
 
 input:focus {
   outline: none;
-  border-color: #4f46e5;
+  border-color: #3b82f6;
   box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.1);
 }
 
 .submit-button {
-  background-color: #4f46e5;
+  background-color: #ff8000;
   color: white;
   padding: 0.6rem;
   border: none;
@@ -64,7 +64,7 @@ input:focus {
 }
 
 .submit-button:hover {
-  background-color: #3b32b3;
+  background-color: #3b82f6;
 }
 
 .signup-link {
@@ -74,7 +74,7 @@ input:focus {
 }
 
 .signup-link a {
-  color: #c1008a;
+  color: #3b82f6;
   text-decoration: none;
 }
 
